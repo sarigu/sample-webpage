@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>Three gypsies and a bottle of coke</div>
+
+        <a href="#contact">Contact</a>
+        <a href="#aboutus">About us.</a>
+        <a href="#samples">Samples</a>
+      </nav>
+    </header>
+    <section id="samples">
+      <div id="box"></div>
+      <h1 id="song1">Happy<br />Blues</h1>
+      <h1 id="song2">Come Get <br />Down<br />With Me</h1>
+      <h1 id="song3">
+        Something <br />
+        Silhouette
+      </h1>
+      <svg>
+        <path d="M10,10 L50,100 L90,50"></path>
+      </svg>
+    </section>
+    <section id="aboutus">
+      <h2>About Us</h2>
+      <div class="phrase">Moin Moin!</div>
+      <input type="range" max="4" value="0" />
+    </section>
+    <section id="contact">
+      <div id="box-bottom"></div>
+      <h2>Contact</h2>
+      <p>We would be happy to talk to you!</p>
+      <p>Feel free to reach out to us.</p>
+      <p>E: toni@yahoo.com</p>
+      <p>T: +49 1234353465456</p>
+    </section>
+    <audio id="happyblues">
+      <source src="music/01 Happy Blues.MP3" type="audio/mpeg" />
+    </audio>
+    <audio id="getdown">
+      <source src="music/02 Come Get Down With Me.MP3" type="audio/mpeg" />
+    </audio>
+    <audio id="somethingsilhouette">
+      <source src="music/03 Somethings Silhouette.MP3" type="audio/mpeg" />
+    </audio>
+    <script src="js.js"></script>
+  </body>
+</html>
